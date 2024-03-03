@@ -1,0 +1,151 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif;
+}
+
+body {
+    background: black;
+    background-image: url(luxurious-car-parked-highway-with-illuminated-headlight-sunset.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    background: rgb(24, 23, 23);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: orangered;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: orangered;
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 0 20px;
+}
+
+.navbar a:hover {
+    color: orangered;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    text-decoration: none;
+}
+
+.social-media a i {
+    font-size: 30px;
+    color: orangered;
+}
+
+.home {
+    position: relative;
+    color: orangered;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 3% 0;
+    overflow: hidden;
+}
+
+.home-content {
+    max-width: 450px;
+}
+
+.home-content  h1 {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 30px;
+    color: orangered;
+}
+
+.home-content p {
+    font-size: 20px;
+    margin: 15px 0 30px;
+    color: red;
+}
+
+.btn{
+    display: inline-block;
+    padding:  10px 20px;
+    background: orangered;
+    border: 2px orangered;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+    transition: all .5s ease-in-out;
+    font-size: 15px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: transparent;
+    color: red;
+}
+
+.home-img {
+    position: relative;
+    left: -10%;
+    width: 450px;
+    height: 450px;
+    transform: rotate(45deg);
+}
+
+.home-img .rhombus {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 25px solid orangered;
+}
+
+.home .rhombus2 {
+    position:  absolute;
+    right: -15%;
+    z-index: -1;
+    width: 700px;
+    height: 700px;
+    background: rgb(165, 32, 32);
+    transform: rotate(45deg);
+}
+
+
